@@ -227,7 +227,6 @@ CITIES=Karachi,Lahore,Islamabad,Rawalpindi,Faisalabad,Multan,Quetta,Peshawar
 ```
 pakistan-event-venue-lead-generator/
 ├── src/
-│   ├── __init__.py
 │   ├── ai_handler.py       # Gemini API integration 🤖
 │   ├── search_handler.py   # Web search and scraping 🔍
 │   ├── sheet_handler.py    # Google Sheets integration 📊

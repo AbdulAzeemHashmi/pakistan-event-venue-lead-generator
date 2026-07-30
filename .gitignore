@@ -26,7 +26,6 @@ wheels/
 # Environment & secrets
 .env
 credentials.json
-service_account.json
 *.log
 
 # IDE

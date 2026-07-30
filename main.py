@@ -26,7 +26,7 @@ def main():
             logger.info(f"Searching: {query}")
 
             # Get URLs from search (using SerpAPI or fallback)
-            urls = search.get_venue_urls(query, num_results=5)
+            urls = search.get_venue_urls(query, num_results=10)
 
             for url in urls:
                 logger.info(f"Scraping: {url}")

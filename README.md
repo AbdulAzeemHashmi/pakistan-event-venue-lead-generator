@@ -220,14 +220,6 @@ Edit the `CITIES` variable in your `.env` file:
 CITIES=Karachi,Lahore,Islamabad,Rawalpindi,Faisalabad,Multan,Quetta,Peshawar
 ```
 
-### 🔢 Customize Number of Results
-
-In `main.py`, modify the `num_results` parameter:
-
-```python
-urls = search.get_venue_urls(query, num_results=10)  # Default is 5
-```
-
 <br/>
 
 ## 📁 Project Structure
